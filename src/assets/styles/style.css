@@ -1,0 +1,50 @@
+.container {
+    height:400px;
+    width:800px;
+    margin: 5% 15%;
+    background: linear-gradient(#0080FF,#3399FF);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.priceCard{
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+  .priceCard:hover{
+    box-shadow: 0 0 15px gray ;
+    transform: scale(1.1);
+    border-radius: 10px;
+     z-index:1;
+    }
+  .priceCardOne{
+    text-align: center;
+    /* margin-top: 10px; */
+  }
+  h6{
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+    color: grey;
+    font-size: 10px;
+  }
+  .content{
+    line-height: 1;
+    font-size: 11px;
+    padding: 2px 10px;
+  }
+  button{
+    background-color: #0080FF ;
+    color: white;
+    height:8%;
+    width:70%;
+    border:none;
+    border-radius: 25px;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 10px;
+    cursor: pointer;
+  }
